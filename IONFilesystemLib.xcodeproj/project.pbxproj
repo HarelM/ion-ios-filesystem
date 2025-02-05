@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		756346652C00F21000685AA3 /* OSFilesystemLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756346612C00F21000685AA3 /* OSFilesystemLib.swift */; };
-		7575CF6A2BFCEE6F008F3FD0 /* OSFilesystemLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7575CF612BFCEE6F008F3FD0 /* OSFilesystemLib.framework */; };
-		7575CF802BFCEEEA008F3FD0 /* OSFilesystemLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7575CF7D2BFCEEEA008F3FD0 /* OSFilesystemLib.swift */; };
+		751328D52D3175170031BDD0 /* IONFILEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751328D42D3175170031BDD0 /* IONFILEManager.swift */; };
+		751328DA2D318DBA0031BDD0 /* IONFILEDirectoryManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751328D92D318DBA0031BDD0 /* IONFILEDirectoryManagerTests.swift */; };
+		751328DB2D318E770031BDD0 /* MockFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751328D82D3179430031BDD0 /* MockFileManager.swift */; };
+		7575CF6A2BFCEE6F008F3FD0 /* IONFilesystemLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7575CF612BFCEE6F008F3FD0 /* IONFilesystemLib.framework */; };
+		75DA44542D48E435006DF7DE /* IONFILEChunkPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA44532D48E435006DF7DE /* IONFILEChunkPublisher.swift */; };
+		75F8380B2D37E42000FCE044 /* IONFILEItemAttributeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F8380A2D37E42000FCE044 /* IONFILEItemAttributeModel.swift */; };
+		75F84D662D39360E00892C89 /* IONFILEManager+Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F84D652D39360E00892C89 /* IONFILEManager+Errors.swift */; };
+		75F84D682D39362F00892C89 /* IONFILEManager+Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F84D672D39362F00892C89 /* IONFILEManager+Enums.swift */; };
+		75FEB2B02D3546D7007C2686 /* IONFILEManager+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FEB2AF2D3546D7007C2686 /* IONFILEManager+Protocols.swift */; };
+		75FEB2B22D35470C007C2686 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FEB2B12D35470C007C2686 /* URL+Extension.swift */; };
+		75FEB2B42D35479B007C2686 /* IONFILEFileManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FEB2B32D35479B007C2686 /* IONFILEFileManagerTests.swift */; };
+		75FEB2B72D355F21007C2686 /* file.txt in Resources */ = {isa = PBXBuildFile; fileRef = 75FEB2B62D355F21007C2686 /* file.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,10 +32,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		756346612C00F21000685AA3 /* OSFilesystemLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSFilesystemLib.swift; sourceTree = "<group>"; };
-		7575CF612BFCEE6F008F3FD0 /* OSFilesystemLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSFilesystemLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7575CF692BFCEE6F008F3FD0 /* OSFilesystemLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSFilesystemLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7575CF7D2BFCEEEA008F3FD0 /* OSFilesystemLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSFilesystemLib.swift; sourceTree = "<group>"; };
+		751328D42D3175170031BDD0 /* IONFILEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IONFILEManager.swift; sourceTree = "<group>"; };
+		751328D82D3179430031BDD0 /* MockFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFileManager.swift; sourceTree = "<group>"; };
+		751328D92D318DBA0031BDD0 /* IONFILEDirectoryManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IONFILEDirectoryManagerTests.swift; sourceTree = "<group>"; };
+		754D90BC2D4BD81000AD7FD4 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		7575CF612BFCEE6F008F3FD0 /* IONFilesystemLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IONFilesystemLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7575CF692BFCEE6F008F3FD0 /* IONFilesystemLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IONFilesystemLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DA44532D48E435006DF7DE /* IONFILEChunkPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IONFILEChunkPublisher.swift; sourceTree = "<group>"; };
+		75F8380A2D37E42000FCE044 /* IONFILEItemAttributeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IONFILEItemAttributeModel.swift; sourceTree = "<group>"; };
+		75F84D652D39360E00892C89 /* IONFILEManager+Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IONFILEManager+Errors.swift"; sourceTree = "<group>"; };
+		75F84D672D39362F00892C89 /* IONFILEManager+Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IONFILEManager+Enums.swift"; sourceTree = "<group>"; };
+		75FEB2AF2D3546D7007C2686 /* IONFILEManager+Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IONFILEManager+Protocols.swift"; sourceTree = "<group>"; };
+		75FEB2B12D35470C007C2686 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		75FEB2B32D35479B007C2686 /* IONFILEFileManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IONFILEFileManagerTests.swift; sourceTree = "<group>"; };
+		75FEB2B62D355F21007C2686 /* file.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = file.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7575CF6A2BFCEE6F008F3FD0 /* OSFilesystemLib.framework in Frameworks */,
+				7575CF6A2BFCEE6F008F3FD0 /* IONFilesystemLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +70,9 @@
 		7575CF572BFCEE6F008F3FD0 = {
 			isa = PBXGroup;
 			children = (
-				7575CF632BFCEE6F008F3FD0 /* OSFilesystemLib */,
-				7575CF6D2BFCEE6F008F3FD0 /* OSFilesystemLibTests */,
+				754D90BC2D4BD81000AD7FD4 /* Package.swift */,
+				7575CF632BFCEE6F008F3FD0 /* IONFilesystemLib */,
+				7575CF6D2BFCEE6F008F3FD0 /* IONFilesystemLibTests */,
 				7575CF622BFCEE6F008F3FD0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,26 +80,35 @@
 		7575CF622BFCEE6F008F3FD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7575CF612BFCEE6F008F3FD0 /* OSFilesystemLib.framework */,
-				7575CF692BFCEE6F008F3FD0 /* OSFilesystemLibTests.xctest */,
+				7575CF612BFCEE6F008F3FD0 /* IONFilesystemLib.framework */,
+				7575CF692BFCEE6F008F3FD0 /* IONFilesystemLibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7575CF632BFCEE6F008F3FD0 /* OSFilesystemLib */ = {
+		7575CF632BFCEE6F008F3FD0 /* IONFilesystemLib */ = {
 			isa = PBXGroup;
 			children = (
-				756346612C00F21000685AA3 /* OSFilesystemLib.swift */,
+				751328D42D3175170031BDD0 /* IONFILEManager.swift */,
+				75F84D672D39362F00892C89 /* IONFILEManager+Enums.swift */,
+				75F84D652D39360E00892C89 /* IONFILEManager+Errors.swift */,
+				75FEB2AF2D3546D7007C2686 /* IONFILEManager+Protocols.swift */,
+				75DA44532D48E435006DF7DE /* IONFILEChunkPublisher.swift */,
+				75F8380A2D37E42000FCE044 /* IONFILEItemAttributeModel.swift */,
+				75FEB2B12D35470C007C2686 /* URL+Extension.swift */,
 			);
-			path = OSFilesystemLib;
+			path = IONFilesystemLib;
 			sourceTree = "<group>";
 		};
-		7575CF6D2BFCEE6F008F3FD0 /* OSFilesystemLibTests */ = {
+		7575CF6D2BFCEE6F008F3FD0 /* IONFilesystemLibTests */ = {
 			isa = PBXGroup;
 			children = (
-				7575CF7D2BFCEEEA008F3FD0 /* OSFilesystemLib.swift */,
+				751328D82D3179430031BDD0 /* MockFileManager.swift */,
+				751328D92D318DBA0031BDD0 /* IONFILEDirectoryManagerTests.swift */,
+				75FEB2B32D35479B007C2686 /* IONFILEFileManagerTests.swift */,
+				75FEB2B62D355F21007C2686 /* file.txt */,
 			);
-			path = OSFilesystemLibTests;
+			path = IONFilesystemLibTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,9 +124,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7575CF602BFCEE6F008F3FD0 /* OSFilesystemLib */ = {
+		7575CF602BFCEE6F008F3FD0 /* IONFilesystemLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7575CF732BFCEE6F008F3FD0 /* Build configuration list for PBXNativeTarget "OSFilesystemLib" */;
+			buildConfigurationList = 7575CF732BFCEE6F008F3FD0 /* Build configuration list for PBXNativeTarget "IONFilesystemLib" */;
 			buildPhases = (
 				7575CF5C2BFCEE6F008F3FD0 /* Headers */,
 				7575CF5D2BFCEE6F008F3FD0 /* Sources */,
@@ -109,14 +138,14 @@
 			);
 			dependencies = (
 			);
-			name = OSFilesystemLib;
+			name = IONFilesystemLib;
 			productName = OSInAppBrowserLib;
-			productReference = 7575CF612BFCEE6F008F3FD0 /* OSFilesystemLib.framework */;
+			productReference = 7575CF612BFCEE6F008F3FD0 /* IONFilesystemLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7575CF682BFCEE6F008F3FD0 /* OSFilesystemLibTests */ = {
+		7575CF682BFCEE6F008F3FD0 /* IONFilesystemLibTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7575CF762BFCEE6F008F3FD0 /* Build configuration list for PBXNativeTarget "OSFilesystemLibTests" */;
+			buildConfigurationList = 7575CF762BFCEE6F008F3FD0 /* Build configuration list for PBXNativeTarget "IONFilesystemLibTests" */;
 			buildPhases = (
 				7575CF652BFCEE6F008F3FD0 /* Sources */,
 				7575CF662BFCEE6F008F3FD0 /* Frameworks */,
@@ -127,9 +156,9 @@
 			dependencies = (
 				7575CF6C2BFCEE6F008F3FD0 /* PBXTargetDependency */,
 			);
-			name = OSFilesystemLibTests;
+			name = IONFilesystemLibTests;
 			productName = OSInAppBrowserLibTests;
-			productReference = 7575CF692BFCEE6F008F3FD0 /* OSFilesystemLibTests.xctest */;
+			productReference = 7575CF692BFCEE6F008F3FD0 /* IONFilesystemLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -140,19 +169,19 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					7575CF602BFCEE6F008F3FD0 = {
 						CreatedOnToolsVersion = 15.1;
-						LastSwiftMigration = 1510;
+						LastSwiftMigration = 1600;
 					};
 					7575CF682BFCEE6F008F3FD0 = {
 						CreatedOnToolsVersion = 15.1;
-						LastSwiftMigration = 1510;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
-			buildConfigurationList = 7575CF5B2BFCEE6F008F3FD0 /* Build configuration list for PBXProject "OSFilesystemLib" */;
+			buildConfigurationList = 7575CF5B2BFCEE6F008F3FD0 /* Build configuration list for PBXProject "IONFilesystemLib" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,8 +197,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7575CF602BFCEE6F008F3FD0 /* OSFilesystemLib */,
-				7575CF682BFCEE6F008F3FD0 /* OSFilesystemLibTests */,
+				7575CF602BFCEE6F008F3FD0 /* IONFilesystemLib */,
+				7575CF682BFCEE6F008F3FD0 /* IONFilesystemLibTests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75FEB2B72D355F21007C2686 /* file.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				756346652C00F21000685AA3 /* OSFilesystemLib.swift in Sources */,
+				75F8380B2D37E42000FCE044 /* IONFILEItemAttributeModel.swift in Sources */,
+				75DA44542D48E435006DF7DE /* IONFILEChunkPublisher.swift in Sources */,
+				75FEB2B02D3546D7007C2686 /* IONFILEManager+Protocols.swift in Sources */,
+				75F84D682D39362F00892C89 /* IONFILEManager+Enums.swift in Sources */,
+				751328D52D3175170031BDD0 /* IONFILEManager.swift in Sources */,
+				75F84D662D39360E00892C89 /* IONFILEManager+Errors.swift in Sources */,
+				75FEB2B22D35470C007C2686 /* URL+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7575CF802BFCEEEA008F3FD0 /* OSFilesystemLib.swift in Sources */,
+				751328DA2D318DBA0031BDD0 /* IONFILEDirectoryManagerTests.swift in Sources */,
+				751328DB2D318E770031BDD0 /* MockFileManager.swift in Sources */,
+				75FEB2B42D35479B007C2686 /* IONFILEFileManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +272,7 @@
 /* Begin PBXTargetDependency section */
 		7575CF6C2BFCEE6F008F3FD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7575CF602BFCEE6F008F3FD0 /* OSFilesystemLib */;
+			target = 7575CF602BFCEE6F008F3FD0 /* IONFilesystemLib */;
 			targetProxy = 7575CF6B2BFCEE6F008F3FD0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -374,8 +412,9 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -384,16 +423,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 0.0.1;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.outsystems.rd.inappbrowser.OSInAppBrowserLib;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.libs.filesystem.FilesystemLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -408,8 +447,9 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -418,16 +458,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 0.0.1;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.outsystems.rd.inappbrowser.OSInAppBrowserLib;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.libs.filesystem.FilesystemLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -439,14 +479,13 @@
 		7575CF772BFCEE6F008F3FD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.outsystems.rd.inappbrowser.OSInAppBrowserLibTests;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.libs.filesystem.FilesystemLibTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -461,14 +500,13 @@
 		7575CF782BFCEE6F008F3FD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.outsystems.rd.inappbrowser.OSInAppBrowserLibTests;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ionic.libs.filesystem.FilesystemLibTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -482,7 +520,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7575CF5B2BFCEE6F008F3FD0 /* Build configuration list for PBXProject "OSFilesystemLib" */ = {
+		7575CF5B2BFCEE6F008F3FD0 /* Build configuration list for PBXProject "IONFilesystemLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7575CF712BFCEE6F008F3FD0 /* Debug */,
@@ -491,7 +529,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7575CF732BFCEE6F008F3FD0 /* Build configuration list for PBXNativeTarget "OSFilesystemLib" */ = {
+		7575CF732BFCEE6F008F3FD0 /* Build configuration list for PBXNativeTarget "IONFilesystemLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7575CF742BFCEE6F008F3FD0 /* Debug */,
@@ -500,7 +538,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7575CF762BFCEE6F008F3FD0 /* Build configuration list for PBXNativeTarget "OSFilesystemLibTests" */ = {
+		7575CF762BFCEE6F008F3FD0 /* Build configuration list for PBXNativeTarget "IONFilesystemLibTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7575CF772BFCEE6F008F3FD0 /* Debug */,
